@@ -1,0 +1,27 @@
+{
+    "name": "shybily/flame-framework",
+    "authors": [
+        {
+            "name": "shybily",
+            "email": "shybily@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "shybily\\framework\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "ext-json": "*",
+        "symfony/console": "^4.2",
+        "vlucas/phpdotenv": "^3.3",
+        "nikic/fast-route": "^1.3"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.laravel-china.org"
+        }
+    }
+}
